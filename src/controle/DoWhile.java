@@ -16,7 +16,7 @@ public class DoWhile {
 			 valor = entrada.nextLine();
 		 } while(valor.equalsIgnoreCase("por favor"));
 		
-		 
+		  
 		 System.out.println("Obrigado!");		
 		entrada.close();
 	}

@@ -14,7 +14,7 @@ public class DesafioWhile {
 			System.out.println("Informe a nota (ou -1 para sair):");
 			nota = entrada.nextDouble();
 
-			if (nota <= 10 && nota > 0) {
+			if (nota <= 10 && nota > 0) { 
 				total += nota;
 				quantidadeDeNotas++;
 			} else if (nota != -1) {
