@@ -2,11 +2,12 @@ package oo.composicao;
 
 public class Carro {
 
-	Motor motor; //notacao para construcao de motor bidirecional.
+	Motor motor;
 	
 	Carro(){
 		this.motor = new Motor(this);
-	} //notacao para construcao de motor bidirecional.
+		
+	}
 
 	void acelerar() {
 		if (motor.fatorInjecao < 2.6) {
@@ -31,5 +32,4 @@ public class Carro {
 	boolean estaLigado() {
 		return motor.ligado;
 	}
-
 }
